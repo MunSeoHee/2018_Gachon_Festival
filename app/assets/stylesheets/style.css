@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'BMDOHYEON'
+}
+@font-face { font-family: 'BMDOHYEON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff'); font-weight: normal; font-style: normal; }
+h1, h2, h3{
+  
+}
+h1{
+  font-size: 1.25em;
+}
+h2{
+  font-size: 0.75rem;
+}
+h3{
+  font-size: 0.825rem;
+}
+h4{
+  font-family: none;
+  font-size: 0.125rem;
+  color: lightgray;
+}
+p{
+  font-size: 0.75rem;
+  margin: 1%;
+}
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+html{
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  background-color: rgb(15,14,23);
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  background-color:rgb(15,14,23);
+}
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Logo{
+  width: 100%;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.indexPage{
+  margin-bottom: 3%;
+}
+.imgButton{
+  width: 60%;
+}
+.imgButton img{
+  margin-top:5%;
+  width: 60%;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  position:absolute;
+  bottom:0;
+}
+@media (min-width:600px){
+  footer{
+    position:static;
+  }
+}
+
+footer img{
+  margin-top: 2%;
+  width: 30%;
+}
+footer h4{
+  margin: -3% 0 5%;
+}
+
+
+
+.section_CardBox{
+  width: 90%;
+  margin-top:5%;
+  background-color: white;
+  border-radius: 3%;
+}
+.section_CardBox img{
+  margin-top: 5%;
+  width: 90%;
+}
+.section_CardBox h1
+{
+  margin: 3% 0;
+}
+.CardBox_textContnet{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section_ArtistBox{
+  margin-bottom: 4%;
+  width: 70%;
+}
+.Artist_Img{
+  width: 90%;
+}
+.Artist_Info{
+  width: 80%;
+}
+
+.artFestival_Box{
+  margin-bottom: 5%;
+  border-radius: 3%;
+  background-color: white;
+  width: 90%;
+  display: flex;
+  padding: 2%;
+}
+.Art_Img_Box{
+  width: 40%;
+  height: 40%;
+}
+.Festival_Infof{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Bar_Box{
+  margin-bottom:7%;
+  border-radius: 3%;
+  width: 90%;
+  background-color: white;
+}
+.Bar_Box h1{
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
+.Bar_Box h2{
+  margin: -1%;
+  font-size: 0.825rem;
+}
+.Bar_Box_Img{
+  width: 100%;
+}
+.inform{
+  padding: 5% 10% 5%;;
+}
+.map img{
+  margin-top:;
+  width:100%;
+}
